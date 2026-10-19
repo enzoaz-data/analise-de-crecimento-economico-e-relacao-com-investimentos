@@ -17,7 +17,7 @@ Acesso: [PIB dos Municípios](https://www.ibge.gov.br/estatisticas/economicas/co
 
 Utilização: complementar a análise com indicadores de rendimento
 
-Acesso: [Censo Demográfico 2020](https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html)
+Acesso: [Censo Demográfico 2022](https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html)
 
 **Tratamento dos Dados:**
 
@@ -29,7 +29,8 @@ A base original foi tratada e preparada via Power Query; as principais mudanças
 
 - **Ordenação dos dados:** o valor do PIB foi ordenado por ordem decrescente.
 
-- **Alterações:**
+**Alterações:**
+
 A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
 
 O nome de algumas colunas foi alterado para facilitar o relacionamento entre as tabelas.
