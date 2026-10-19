@@ -29,5 +29,7 @@ A base original foi tratada e preparada via Power Query; as principais mudanças
 
 - **Ordenação dos dados:** o valor do PIB foi ordenado por ordem decrescente.
 
-- **Alterações dos tipos:**
+- **Alterações:**
 A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
+
+O nome de algumas colunas foi alterado para facilitar o relacionamento entre as tabelas.
