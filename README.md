@@ -19,7 +19,7 @@ IBGE - Produto Interno Bruto dos Municípios
 
 IBGE - Censo 2022
 
-Mais detalhes sobre os dados utilizados e tratamento estão presentes no (nome do readme de dados)
+Mais detalhes sobre os dados utilizados e tratamento estão presentes no [README da pasta data](data/README.md)
 
 **4 - Ferramentas utilizadas:**
 

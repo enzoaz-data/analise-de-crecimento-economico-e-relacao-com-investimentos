@@ -3,7 +3,7 @@ Esta pasta tem como objetivo demonstrar a organização dos dados utilizados na 
 
 **Fonte dos Dados:**
 
-- Instituto Brasileiro de Geografia e Estatística(IBGE)
+- Instituto Brasileiro de Geografia e Estatística (IBGE)
 
 Bases:
 
@@ -31,6 +31,47 @@ A base original foi tratada e preparada via Power Query; as principais mudanças
 
 **Alterações:**
 
-A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
+**PIB** - A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
 
-O nome de algumas colunas foi alterado para facilitar o relacionamento entre as tabelas.
+Alterações de variáveis:
+
+Ano --> ano
+
+Sigla da Unidade da Federação --> uf
+
+Código do Município --> cod_municipio
+
+Nome do Município --> nome_municipio
+
+Produto Interno Bruto, a preços correntes (R$ 1.000) --> pib_mil_reais
+
+Produto Interno Bruto per capita, a preços correntes (1,00) --> pib_per_capita
+
+
+**Censo** - Foram removidas as variáveis estatísticas não utilizadas na análise.
+
+Alterações de variáveis:
+
+CD_MUN --> cod_municipio
+
+NM_MUN --> nome_municipio
+
+V06001 --> qtd_responsaveis
+
+V06002 --> qtd_moradores
+
+V06004 --> rendimento_medio_mensal
+
+V06006 --> rendimento_mediano_mensal
+
+**Observações e limitações**
+
+Os arquivos desta pasta são versões processadas dos dados originais; consulte as fontes oficiais para acessar os dados de origem e seus metadados.
+
+O PIB municipal e os dados do Censo possuem níveis geográficos diferentes: municipal e setor censitário, respectivamente.
+
+O código do município é utilizado para relacionar as bases. Como cada município pode conter vários setores censitários, a junção direta pode repetir os valores municipais do PIB em várias linhas.
+
+Os rendimentos do Censo são valores nominais e se referem ao período de referência do levantamento; não representam automaticamente valores corrigidos pela inflação.
+
+A seleção e a transformação das variáveis foram realizadas para fins educacionais e de análise de dados.
