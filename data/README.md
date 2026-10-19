@@ -1,7 +1,7 @@
 # Dados do projeto
 Esta pasta tem como objetivo demonstrar a organização dos dados utilizados na análise.
 
-**Fonte dos dados:**
+**Fonte dos Dados:**
 
 - Instituto Brasileiro de Geografia e Estatística(IBGE)
 
@@ -19,3 +19,15 @@ Utilização: complementar a análise com indicadores de rendimento
 
 Acesso: [Censo Demográfico 2020](https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html)
 
+**Tratamento dos Dados:**
+
+A base original foi tratada e preparada via Power Query; as principais mudanças foram:
+
+- **Remoção de colunas:** foram retiradas as colunas de menor relevância para a análise.
+
+- **Filtragem dos dados:** foi aplicado o filtro para manter os dados concentrados nos anos de 2022 e 2023, assim como para limitar o escopo a municípios do estado de São Paulo.
+
+- **Ordenação dos dados:** o valor do PIB foi ordenado por ordem decrescente.
+
+- **Alterações dos tipos:**
+A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
