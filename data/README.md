@@ -29,6 +29,8 @@ A base original foi tratada e preparada via Power Query; as principais mudanças
 
 - **Ordenação dos dados:** o valor do PIB foi ordenado por ordem decrescente.
 
+***
+
 **Alterações:**
 
 **PIB** - A coluna de código do município foi alterada de número para texto, evitando a perda de algum dígito.
@@ -47,8 +49,11 @@ Produto Interno Bruto, a preços correntes (R$ 1.000) --> pib_mil_reais
 
 Produto Interno Bruto per capita, a preços correntes (1,00) --> pib_per_capita
 
+***
 
 **Censo** - Foram removidas as variáveis estatísticas não utilizadas na análise.
+
+Os dados foram filtrados para limitar o escopo para municípios do estado de São Paulo.
 
 Alterações de variáveis:
 
@@ -63,6 +68,8 @@ V06002 --> qtd_moradores
 V06004 --> rendimento_medio_mensal
 
 V06006 --> rendimento_mediano_mensal
+
+***
 
 **Observações e limitações**
 
