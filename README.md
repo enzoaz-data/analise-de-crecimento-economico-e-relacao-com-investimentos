@@ -29,7 +29,23 @@ SQL Server/SQL --> Consulta, filtragem e relacionamento entre as tabelas; seleç
 
 Power BI --> Visualização de dados e apresentação das conclusões
 
-**5 - Limitações e ressalvas:**
+***
+
+**5 - Pergunta de negócio:**
+
+Quais municípios do estado de São Paulo apresentaram crescimento geral em seu PIB entre 2022 e 2023, e de que maneira os indicadores podem auxiliar na decisão de investir em determinado mercado?
+
+***
+
+## Conclusão:
+
+Dentro do escopo dessa análise, é possível constatar os 15 municípios que tiveram maior crescimento de PIB de 2022 para 2023, relacionando a evolução dos municípios do estado de São Paulo aos indicadores de rendimento do Censo Demográfico de 2022.
+
+Por meio do SQL Server, foi possível comparar os indicadores econômicos dos municípios, calcular o crescimento percentual do PIB e selecionar aqueles que apresentaram aumento tanto no PIB total quanto no PIB per capita.
+
+Como possibilidade de expansão, a análise pode ser complementada com dados populacionais, indicadores de consumo e informações sobre a atividade comercial dos municípios, permitindo uma avaliação mais aprofundada das oportunidades de mercado.
+
+**Limitações e ressalvas:**
 
 - A análise é feita em um período de um ano, não sendo possível estabelecer tendências a longo prazo.
 - Os valores do PIB são nominais e inflação está sendo desconsiderada, o que pode refletir em mudanças da atividade econômica
