@@ -43,6 +43,8 @@ Dentro do escopo dessa análise, é possível constatar os 15 municípios que ti
 
 Por meio do SQL Server, foi possível comparar os indicadores econômicos dos municípios, calcular o crescimento percentual do PIB e selecionar aqueles que apresentaram aumento tanto no PIB total quanto no PIB per capita.
 
+O projeto demonstra a aplicação integrada de preparação de dados, SQL e Power BI em uma análise que explora os diferentes indicadores.
+
 Como possibilidade de expansão, a análise pode ser complementada com dados populacionais, indicadores de consumo e informações sobre a atividade comercial dos municípios, permitindo uma avaliação mais aprofundada das oportunidades de mercado.
 
 **Limitações e ressalvas:**
